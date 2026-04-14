@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '../assets/vite.svg'
-import heroImg from '../assets/hero.png'
+import {useState} from 'react';
+import reactLogo from '../assets/react.svg';
+import viteLogo from '../assets/vite.svg';
+import heroImg from '../assets/hero.png';
 
 function Home() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -17,7 +17,7 @@ function Home() {
         <div>
           <h1>Get started</h1>
           <p>
-            Edit <code>src/routes/Home.jsx</code> and save to test{' '}
+            Edit <code>src/routes/Home.tsx</code> and save to test{' '}
             <code>HMR</code>
           </p>
         </div>
@@ -115,7 +115,7 @@ function Home() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

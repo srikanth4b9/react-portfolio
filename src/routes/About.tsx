@@ -11,7 +11,7 @@ function About() {
         built-in caching for a modern routing experience.
       </p>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
